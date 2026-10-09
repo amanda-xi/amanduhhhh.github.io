@@ -71,7 +71,9 @@ const ProjectDetail = () => {
     );
   }
 
-  const currentProjectIndex = projects.findIndex((p) => p.slug === project.slug);
+  const currentProjectIndex = projects.findIndex(
+    (p) => p.slug === project.slug,
+  );
   const previousProject =
     projects[(currentProjectIndex - 1 + projects.length) % projects.length];
   const nextProject = projects[(currentProjectIndex + 1) % projects.length];
@@ -161,7 +163,6 @@ const ProjectDetail = () => {
                   )}
                 </div>
               )}
-
             </div>
 
             {!!project.media?.length && (

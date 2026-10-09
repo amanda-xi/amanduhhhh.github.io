@@ -34,13 +34,13 @@ const About = () => {
 
           <p>
             I'm a <span className="highlighted-2">CS + Co-op student</span> at
-            the University of Waterloo. I've built countless full-stack
-            applications, from web apps for crochet pattern design to patient
-            portals used in real health centres! Learn more in my{" "}
-            <Link to="/projects">projects.</Link>
+            the University of Waterloo. I've been all over the SWE stack, and
+            have experience in SRE and ML. Feel free to check out my{" "}
+            <Link to="/projects">projects</Link>, or scroll down for my
+            professional experience :)
           </p>
           <p>
-            I'm also an absolute puzzle fiend. Be it{" "}
+            More interestingly, I'm an absolute puzzle fiend. Be it{" "}
             <span className="highlighted-2">minesweeper</span>,{" "}
             <span className="highlighted-2">crosswords</span>, or{" "}
             <span className="highlighted-2">
@@ -79,28 +79,40 @@ const About = () => {
           <h2>what i've been up to:</h2>
           <ul>
             <li>
-              Developing{" "}
+              Currently working with{" "}
+              <span className="highlighted-2">Shopify</span> and supporting
+              their migration to a distributed database!
+            </li>
+            <li>
+              I love partaking in tech fellowships - just wrapped up a 12-week
+              stint as a Production Engineering Fellow at{" "}
+              <span className="highlighted-2">Meta</span>, and before that, was
+              an ML fellow at{" "}
+              <span className="highlighted-2">AI4Good Lab 2026</span>.
+            </li>
+            <li>
+              I was a frontend organizer for{" "}
               <a
                 href="https://hackthenorth.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                hackthenorth.com
-              </a>
-              {" "} frontend systems, and led development on our (objectively) coolest{" "}
+                Hack the North
+              </a>{" "}
+              2026 (See us on{" "}
               <a
-                href="https://apply.hackthenorth.com"
+                href="https://www.awwwards.com/sites/hack-the-north"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                hacker apps
-              </a>
-              {" "} to date!
+                awwwards
+              </a>{" "}
+              hehe)
             </li>
             <li>
-              Completed a{" "}
+              From Oct 2025 - June 2026, completed a{" "}
               <span className="highlighted-2">Ubisoft mentorship</span>, where I
-              developed a game under industry leadership.
+              developed a C++ game under industry leadership.
             </li>
             <li>
               I also served as Waterloo's{" "}

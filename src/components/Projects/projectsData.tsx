@@ -167,9 +167,9 @@ export const projects: Project[] = [
         alt: "Sensa",
         caption: "Accessibility research",
       },
-      { type: "image", src: sensa02, alt: "Sensa" , caption: "Mid-fi"},
-      { type: "image", src: sensa03, alt: "Sensa" , caption: "Final assets"},
-      { type: "image", src: sensa04, alt: "Sensa" , caption: "Hi-fi"},
+      { type: "image", src: sensa02, alt: "Sensa", caption: "Mid-fi" },
+      { type: "image", src: sensa03, alt: "Sensa", caption: "Final assets" },
+      { type: "image", src: sensa04, alt: "Sensa", caption: "Hi-fi" },
     ],
     viewProject: "https://sensa-app.vercel.app",
     viewRepo: "https://github.com/amanduhhhh/sensa-deploy",
@@ -319,23 +319,18 @@ export const projects: Project[] = [
         shape custom dashboards from live personal and public data sources, then
         adapt the interface as their curiosity changes.
         <br />
-        <br />
-        I developed the frontend/backend connection for streaming AI output with
-        server-sent events, and designed the four hot-swappable themes,
-        customization flow, and component blocks the AI uses to slot generated
-        content into real UI pieces. The structure kept generated dashboards
-        flexible for users while grounding the AI in reliable components and live
-        data.
+        <br />I developed the frontend/backend connection for streaming AI
+        output with server-sent events, and designed the four hot-swappable
+        themes, customization flow, and component blocks the AI uses to slot
+        generated content into real UI pieces. The structure kept generated
+        dashboards flexible for users while grounding the AI in reliable
+        components and live data.
       </>
     ),
     specs: {
       frameworks: ["Next.js", "React", "FastAPI", "Tailwind CSS"],
       languages: ["TypeScript", "Python"],
-      tools: [
-        "LiteLLM",
-        "morphdom",
-        "Zustand",
-      ],
+      tools: ["LiteLLM", "morphdom", "Zustand"],
     },
     media: [
       {
@@ -359,7 +354,8 @@ export const projects: Project[] = [
         alt: "Mosaic generated component blocks",
       },
     ],
-    viewProject: "https://devpost.com/software/mosaic-yh1a3p?_gl=1*oq30gs*_gcl_au*MjExOTc4Mzg1OS4xNzc5MTM3OTky*_ga*MTQwOTAwMTIzOS4xNzcwNTg0MDkw*_ga_0YHJK3Y10M*czE3ODQ1NzEwNTMkbzI4JGcxJHQxNzg0NTcxMDYwJGo1MyRsMCRoMA..",
+    viewProject:
+      "https://devpost.com/software/mosaic-yh1a3p?_gl=1*oq30gs*_gcl_au*MjExOTc4Mzg1OS4xNzc5MTM3OTky*_ga*MTQwOTAwMTIzOS4xNzcwNTg0MDkw*_ga_0YHJK3Y10M*czE3ODQ1NzEwNTMkbzI4JGcxJHQxNzg0NTcxMDYwJGo1MyRsMCRoMA..",
     viewRepo: "https://github.com/amanduhhhh/Mosaic",
   },
   {
@@ -394,12 +390,7 @@ export const projects: Project[] = [
     specs: {
       frameworks: ["SFML"],
       languages: ["C++"],
-      tools: [
-        "A*",
-        "Dijkstra",
-        "Best-First Search",
-        "DFS Maze Generation",
-      ],
+      tools: ["A*", "Dijkstra", "Best-First Search", "DFS Maze Generation"],
     },
     media: [
       {
@@ -437,12 +428,11 @@ export const projects: Project[] = [
         personalized meal plan and consolidated shopping list around the best
         available deals.
         <br />
-        <br />
-        I worked on a Next.js app that combines flyer scraping, JSON/PDF parsing,
-        store mapping, and AI-assisted meal planning. The main challenge was
-        normalizing messy retailer data, including inconsistent formats and
-        shrinkflation differences, so recommendations stayed reliable,
-        affordable, and realistic for each user's constraints.
+        <br />I worked on a Next.js app that combines flyer scraping, JSON/PDF
+        parsing, store mapping, and AI-assisted meal planning. The main
+        challenge was normalizing messy retailer data, including inconsistent
+        formats and shrinkflation differences, so recommendations stayed
+        reliable, affordable, and realistic for each user's constraints.
       </>
     ),
     specs: {
@@ -503,11 +493,11 @@ export const projects: Project[] = [
         craft and code.
         <br />
         <br />
-        We built CrocheTeX, a custom TypeScript compiler for writing, validating,
-        and previewing crochet patterns in real time. The platform renders both
-        2D symbol charts and interactive 3D stitch models with yarn flow, while
-        an AI translation tool helps convert traditional written instructions
-        into editable CrocheTeX patterns.
+        We built CrocheTeX, a custom TypeScript compiler for writing,
+        validating, and previewing crochet patterns in real time. The platform
+        renders both 2D symbol charts and interactive 3D stitch models with yarn
+        flow, while an AI translation tool helps convert traditional written
+        instructions into editable CrocheTeX patterns.
       </>
     ),
     specs: {
@@ -642,7 +632,8 @@ export const projects: Project[] = [
         The app includes modules for waves, kinematics, and energy. Waves lets
         users experiment with standing waves and interference, kinematics shows
         position, velocity, and acceleration graphs, and energy visualizes
-        potential, kinetic, mechanical, and thermal energy as the system changes.
+        potential, kinetic, mechanical, and thermal energy as the system
+        changes.
       </>
     ),
     specs: {
@@ -662,7 +653,8 @@ export const projects: Project[] = [
         src: physicsKinematics,
         poster: physicsKinematicsPoster,
         alt: "Physics Sim kinematics demo",
-        caption: "Kinematics variables with position, velocity, and acceleration graphs",
+        caption:
+          "Kinematics variables with position, velocity, and acceleration graphs",
       },
       {
         type: "video",
@@ -691,8 +683,8 @@ export const projects: Project[] = [
     ),
     description: (
       <>
-        Tihkoosue is a Java Swing arcade game where a little penguin catches fish
-        while avoiding rotten ones and collecting power-ups. It built on my
+        Tihkoosue is a Java Swing arcade game where a little penguin catches
+        fish while avoiding rotten ones and collecting power-ups. It built on my
         earlier game projects with more structured collision logic, animation,
         and score tracking.
         <br />
@@ -733,15 +725,14 @@ export const projects: Project[] = [
     ),
     description: (
       <>
-        Froggy Jump was a Doodle Jump-style Pygame project I made for grade 11 AP
-        Computer Science. I drew all of the assets myself, which made the project
-        feel especially personal and taught me how much polish can come from
-        small visual details.
+        Froggy Jump was a Doodle Jump-style Pygame project I made for grade 11
+        AP Computer Science. I drew all of the assets myself, which made the
+        project feel especially personal and taught me how much polish can come
+        from small visual details.
         <br />
-        <br />
-        I learned a lot about sprite animation, object collision, acceleration
-        mechanics, and tuning game feel while building a vertical platformer
-        with enemies, logs, and a frog shooting with its tongue.
+        <br />I learned a lot about sprite animation, object collision,
+        acceleration mechanics, and tuning game feel while building a vertical
+        platformer with enemies, logs, and a frog shooting with its tongue.
       </>
     ),
     specs: {

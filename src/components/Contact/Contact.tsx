@@ -37,17 +37,17 @@ const Contact = () => {
           "service_m2sc9gs",
           "template_zav2vyr",
           templateParams,
-          "lUMBD9n0gVREwLrwU"
+          "lUMBD9n0gVREwLrwU",
         )
         .then(
           () => {
             setIsSubmitting(false);
             setIsSent(true);
-            
+
             if (refForm.current) {
               refForm.current.reset();
             }
-            
+
             setTimeout(() => {
               setIsSent(false);
             }, 3000);
@@ -58,7 +58,7 @@ const Contact = () => {
             setIsSubmitting(false);
             window.location.reload();
             // navigate("/amandaxi");
-          }
+          },
         );
     } else {
       console.error("issues with form");

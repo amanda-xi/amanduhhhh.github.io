@@ -45,7 +45,9 @@ async function walk(dir) {
 
 async function runFfmpeg(ffmpegArgs) {
   if (dryRun) {
-    console.log(`dry-run: ffmpeg ${ffmpegArgs.map((arg) => `"${arg}"`).join(" ")}`);
+    console.log(
+      `dry-run: ffmpeg ${ffmpegArgs.map((arg) => `"${arg}"`).join(" ")}`,
+    );
     return;
   }
 
@@ -58,7 +60,9 @@ async function convertImage(filePath) {
   const outputExists = await exists(outputPath);
 
   if (!force && outputExists) {
-    console.log(`skip image, WebP exists: ${path.relative(PROJECTS_DIR, outputPath)}`);
+    console.log(
+      `skip image, WebP exists: ${path.relative(PROJECTS_DIR, outputPath)}`,
+    );
   } else {
     console.log(`convert image: ${path.relative(PROJECTS_DIR, filePath)}`);
     await runFfmpeg([
@@ -143,7 +147,9 @@ async function main() {
   await execFileAsync("ffmpeg", ["-version"], { maxBuffer: 1024 * 1024 });
 
   const files = await walk(PROJECTS_DIR);
-  const images = files.filter((file) => IMAGE_EXTENSIONS.has(path.extname(file).toLowerCase()));
+  const images = files.filter((file) =>
+    IMAGE_EXTENSIONS.has(path.extname(file).toLowerCase()),
+  );
   const videos = files.filter((file) => {
     const parsed = path.parse(file);
     return (

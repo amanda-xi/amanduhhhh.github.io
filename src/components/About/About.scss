@@ -8,6 +8,9 @@
   }
   @media (width<=70em) {
     overflow-y: scroll;
+    ul {
+      padding-bottom: 40px;
+    }
   }
 }
 .stage-cube {
